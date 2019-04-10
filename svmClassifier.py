@@ -4,7 +4,7 @@ from firebase import firebase
 import json
 
 
-with open('E:\\Posenet_Points (10).json', 'r') as f:
+with open('Posenet_Points (10).json', 'r') as f:
     jf = json.loads(f.read())
     
 a=np.empty(shape=[0,5])#建一個空的array
@@ -48,7 +48,7 @@ Y = A+B
 
 
 
-with open('E:\\test.json', 'r') as f:
+with open('test.json', 'r') as f:
     test = json.loads(f.read())
     
 b=np.empty(shape=[0,5])#建一個空的array
